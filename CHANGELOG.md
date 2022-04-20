@@ -9,7 +9,20 @@ specification.
 
 ## Unreleased
 
-- Nothing.
+### Added
+
+Only relevant for CI:
+
+* `dependabot.yml` that daily checks github-actions and pip.
+
+### Changed
+
+* Bumped lowest required Python version from `3.6.0` to `3.6.2` due to Black
+  requirements.
+
+Only relevant for development:
+
+* Updated dev dependencies via `pyproject.toml`
 
 ## [5.7.1] 2021-01-12
 
